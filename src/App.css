@@ -1,0 +1,101 @@
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.countries {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 24px;
+}
+
+.list-countries {
+    /*display: grid;*/
+    /*grid-template-columns: repeat(3, 1fr);*/
+    column-count: 3;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+}
+
+.worldmap {
+    max-width: 1100px;
+    margin: 0 auto; /* centreert de hele pagina */
+    padding: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+button {
+    padding: 12px 24px;   /* hoogte | breedte */
+    font-size: 16px;
+    border-radius: 100px;
+    border: 1px solid darkgrey;
+    background-color: lavender;
+}
+
+.green {
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.light-green {
+    color: lightgreen;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.yellow {
+    color: yellow;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.blue {
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.purple {
+    color: purple;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p {
+    color: black;
+    font-size: 12px;
+}
+
+.flag {
+    font-size: 32px;
+}
+
+ul {
+    list-style: none;
+}
